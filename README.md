@@ -1,5 +1,5 @@
 # Tanzania-Weather-SMS1
-## WHY THE PROJECT?
+## Why the Project?
 
 ## Video Link
 https://youtu.be/YClk9BPwjW4?si=km_szSO34RR70rkJ
@@ -9,7 +9,7 @@ Farmers require weather information daily to plan for their agricultural produce
 and instead use flip-phones. My project gets track of rainfall data from csv.files downloaded from TMA website 
 and sends the requested weather information to farmers by SMS. 
 
-## FEATURES IMPLEMENTED
+## Features implemented
 
 1. The first feature is the creation of the Symbol Tables. In the file "TanzaniaWeatherData.java", I try to create in
    A smaller symbol table first, with dates and rainfall data. This is implemented in the method "monthDateAndRainfall".
@@ -25,7 +25,7 @@ and sends the requested weather information to farmers by SMS.
    To send SMS output to the user of the requested information. 
 
 
-### C. HOW TO COMPILE AND RUN
+### How to compile and run
 
 To run the program, you need to open three terminal windows in IntelliJ. In the first terminal, you should run "./ngrok"
 .You should run "./server" in the second terminal and wait until you see the output "Successfully written". Then you
@@ -47,7 +47,7 @@ Can't type dates such as Jul-4.
 
 
 
-### D. HOW THE PROGRAM ACCEPTS USER INPUT 
+### How the program accepts user input
 My program accepts user input from the phone in the required format as described from above. This is implemented in 
 "SmsWebhookHandler.java" along the lines 22, 23 and line 64. This was done through the implementation
 An external library called twilio which is already cited as a reference
@@ -55,14 +55,14 @@ An external library called twilio which is already cited as a reference
 
 
 
-## E. HOW THE PROGRAM PRODUCES OUTPUT
+## How the program produces output
 My program produces output also into the phone using the file "SMSSend.java". This is implemented in the line 24.
 This is also done through the implementation of an external library called twilio which is already cited.
 
 
 
 
-## F. DATA STRUCTURES USED
+## Data Structures used
 
 1. Symbol Table - it is used to store all regions, dates and weather information.
 		  The variable name is "regionsNumericalDatesAndRainfall" and it is declared in line 6 of 
@@ -81,7 +81,7 @@ This is also done through the implementation of an external library called twili
 		"inputFormat" array is used to store the input sms in a split form. 
 		   - This is initialized and declared in line 25 of TanzaniaWeatherApp.java
 
-## CITATIONS
+## Citations
 
 1. https://www.twilio.com/docs/libraries/java
 2. https://www.twilio.com/blog/receive-respond-sms-java-twilio
