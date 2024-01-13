@@ -1,7 +1,7 @@
 # Tanzania-Weather-SMS1
 ## WHY THE PROJECT?
 
-## VIDEO LINK TO PROJECT
+## Video Link
 https://youtu.be/YClk9BPwjW4?si=km_szSO34RR70rkJ
 
 My project tries to solve the problem of lacking weather information for farmers, particularly in Africa. 
