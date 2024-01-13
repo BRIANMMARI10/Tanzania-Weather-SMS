@@ -1,4 +1,4 @@
-# Tanzania-Weather-SMS1
+# Tanzania-Weather-SMS
 ## Why the Project?
 
 ## Video Link
